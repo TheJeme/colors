@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
     <title>Colors</title>
+    <meta name="description" content="A website that changes its background color every minute from #000000 to #FFFFFF.">
+    <meta name="keywords" content="colors, background, hex, website, design, code, app, eemelimark, eemeli-mark.com, eemelimark.com">
+    <meta name="author" content="Eemeli Mark">
+    <meta property="og:title" content="Colors">
+    <meta property="og:description" content="A website that changes its background color every minute from #000000 to #FFFFFF.">
+    <meta property="og:image" content="https://thejeme.github.io/colors/favicon.ico">
     <style>
         * {
             margin: 0;
@@ -43,7 +49,8 @@
         }
 
         .info-p {
-            margin: 5px;
+            font-size: 0.9em;
+            padding: 3px;
         }
 
         #infoButton {
@@ -73,14 +80,14 @@
 <body>
     <main>
         <h1 id="currentColor"></h1>
-        <h3 id="nextColorIn"></h3>
+        <h2 id="nextColorIn"></h2>
         <div id="infoArea">
             <p class="info-p">Current color: <span id="colorsDone"></span></p>
-            <p class="info-p">Colors left: <span id="colorsLeft"></span></p>
-            <p class="info-p">Total of colors: 16,777,216</p>
-            <p class="info-p">Color will change every minute from #000000 to #FFFFFF</p>
-            <p class="info-p">It will take total of 32 years to visit every color</p>
-            <p class="info-p">Started on 2023-08-01</p>
+            <p class="info-p">Colors remaining: <span id="colorsLeft"></span></p>
+            <p class="info-p">Total colors: 16,777,216</p>
+            <p class="info-p">Color changes every minute from #000000 to #FFFFFF</p>
+            <p class="info-p">Completing all colors takes 32 years</p>
+            <p class="info-p">Started on August 1, 2023</p>
         </div>
     </main>
     <p id="infoButton">Info</p>
